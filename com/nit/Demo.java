@@ -40,7 +40,13 @@ class Demo{
 			}
 			
 		}
+
 		
+		NitStudent stu = new NitStudent();
+		
+		stu.setRollNo(100).setCourse("CSE").setAadharNo("122344");
+		
+		System.out.println(stu);
 		
 	}
 }
